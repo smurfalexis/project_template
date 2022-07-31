@@ -19,7 +19,7 @@ Note that you need to design your database. Therefore, there are no migration fi
 
 
 ## Pages
-A home page exists but not other pages.
+A home page exists but no other pages.
 
 
 ## Gems 
@@ -31,7 +31,8 @@ The following gems have been installed
 
 ## Bootstrap
 Bootstrap 5.2 along with popperjs 2.11.5 has been installed.
-assets/config/_bootstrap_variables.scss includes Bootstrap variables that can be modified.
+
+Modify Bootstrap variables in assets/config/_bootstrap_variables.scss
 
 
 ## Run in dev mode
