@@ -1,24 +1,56 @@
-# README
+# Ruby on Rails project template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a template for small Ruby on Rails projects!
 
-Things you may want to cover:
+## Installation
+To get started and run this web app in dev mode you first need to fork the project. 
 
-* Ruby version
+Then run the following commands in your terminal: 
 
-* System dependencies
+`bundle install`
 
-* Configuration
+`yarn install`
 
-* Database creation
 
-* Database initialization
+## Database - PostgreSQL 
+To create your database run `rails db:create` in your terminal.
 
-* How to run the test suite
+Note that you need to design your database. Therefore, there are no migration files to run.
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Pages
+A home page exists but not other pages.
 
-* ...
+
+## Gems 
+The following gems have been installed 
+#### - PgSearch
+#### - Simple form
+#### - rspec
+
+
+## Bootstrap
+Bootstrap 5.2 along with popperjs 2.11.5 has been installed.
+assets/config/_bootstrap_variables.scss includes Bootstrap variables that can be modified.
+
+
+## Run in dev mode
+To run the app locally run `rails s` in your terminal and go to http://localhost:3000/
+
+
+
+
+## Basics
+* Ruby version 3.0.3p157 
+* Rails version 6.1.6.1
+
+
+
+## Finally
+Please raise any issues by creating an issue in the issues tab. 
+
+Happy coding!
+
+
+
+
